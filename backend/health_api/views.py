@@ -9,11 +9,3 @@ def injuries(request):
     template = loader.get_template('basic_display_all.html')
     context = {'injuries': injuriess,}
     return HttpResponse(template.render(context, request))
-'''
-
-from django.http import HttpResponse
-from django.template import loader
-
-def hello(request):
-  template = loader.get_template('hello.html')
-  return HttpResponse(template.render())'''

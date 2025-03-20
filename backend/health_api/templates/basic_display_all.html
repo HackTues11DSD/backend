@@ -3,7 +3,7 @@
     <h1>Наранявания</h1>
     <ul>
         {% for x in injuries %}
-        <li>{{ x.place }} {{ x.name }}</li>
+        <li>{{ x.place }} - {{ x.name }}: {{ x.symptoms }}</li>
         {% endfor %}
     </ul>
 </body>
