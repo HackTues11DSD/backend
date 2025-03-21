@@ -1,0 +1,23 @@
+[
+    {
+        "model": "health_api.injury",
+        "pk": 1,
+        "fields": {
+            "name": "Счупени ребра"
+        }
+    },
+    {
+        "model": "health_api.injury",
+        "pk": 2,
+        "fields": {
+            "name": "Нарязвания и разкъсвания"
+        }
+    },
+    {
+        "model": "health_api.injury",
+        "pk": 3,
+        "fields": {
+            "name": "Шийна болка"
+        }
+    }
+]

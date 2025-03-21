@@ -20,7 +20,7 @@ def login_view(request):
         # Use request.POST for form data or request.body for JSON data
         username = request.POST.get('username')  # Use .get() to avoid KeyError
         password = request.POST.get('password')
-        user = authenticate(request, username=username, password=password)
+        user = authenticate(request , password=password)
         if user is not None:
             login(request, user)
             return JsonResponse({'message': 'Login successful'})
