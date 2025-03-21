@@ -11,15 +11,20 @@ class Injury(models.Model):
 class Place(models.Model):
     name = models.CharField(max_length=255)
 
-class Symptom(models.Model):
-    place = models.ForeignKey(Place, on_delete=models.CASCADE, null=True)
-    name = models.CharField(max_length=255)
-    key = models.CharField(max_length=10)
-
-    def save(self, *args, **kwargs):
-        self.key = str(self.place) + self.name[:3]
-        super(Symptom, self).save(*args, **kwargs)
+    def __str__(self):
+        return f"{self.name}"
 
 class Cause(models.Model):
     name = models.CharField(max_length=255)
-    symptoms = models.ForeignKey(Symptom, on_delete=models.CASCADE, null=True)
+
+    def __str__(self):
+        return f"{self.name}"
+
+class Symptom(models.Model):
+    place = models.ForeignKey(Place, on_delete=models.CASCADE, null=True)
+    cause = models.ForeignKey(Cause, on_delete=models.CASCADE, null=True)
+    name = models.CharField(max_length=255)
+
+    def __str__(self):
+        return f"{self.name}"
+
