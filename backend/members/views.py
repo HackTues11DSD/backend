@@ -1,4 +1,4 @@
-from django.shortcuts import render
+'''from django.shortcuts import render
 from django.http import HttpResponse, JsonResponse
 from django.template import loader
 from django.contrib.auth import authenticate, login
@@ -26,4 +26,4 @@ def login_view(request):
             return JsonResponse({'message': 'Login successful'})
         else:
             return JsonResponse({'message': 'Invalid credentials'}, status=401)
-    return JsonResponse({'message': 'Invalid request method'}, status=405)
+    return JsonResponse({'message': 'Invalid request method'}, status=405)'''

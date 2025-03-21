@@ -1,6 +1,6 @@
 [
     {
-        "model": "superdoc_urls.speciality",
+        "model": "superdoc_urls.region",
         "pk": 1,
         "fields": {
             "name": "Благоевград",
@@ -8,7 +8,7 @@
         }
     },
     {
-        "model": "superdoc_urls.speciality",
+        "model": "superdoc_urls.region",
         "pk": 2,
         "fields": {
             "name": "Бургас",
@@ -16,7 +16,7 @@
         }
     },
     {
-        "model": "superdoc_urls.speciality",
+        "model": "superdoc_urls.region",
         "pk": 3,
         "fields": {
             "name": "Варна",
@@ -24,7 +24,7 @@
         }
     },
     {
-        "model": "superdoc_urls.speciality",
+        "model": "superdoc_urls.region",
         "pk": 4,
         "fields": {
             "name": "Велико Търново",
@@ -32,7 +32,7 @@
         }
     },
     {
-        "model": "superdoc_urls.speciality",
+        "model": "superdoc_urls.region",
         "pk": 5,
         "fields": {
             "name": "Враца",
@@ -40,7 +40,7 @@
         }
     },
     {
-        "model": "superdoc_urls.speciality",
+        "model": "superdoc_urls.region",
         "pk": 6,
         "fields": {
             "name": "Габрово",
@@ -48,7 +48,7 @@
         }
     },
     {
-        "model": "superdoc_urls.speciality",
+        "model": "superdoc_urls.region",
         "pk": 7,
         "fields": {
             "name": "Добрич",
@@ -56,7 +56,7 @@
         }
     },
     {
-        "model": "superdoc_urls.speciality",
+        "model": "superdoc_urls.region",
         "pk": 8,
         "fields": {
             "name": "Кърджали",
@@ -64,7 +64,7 @@
         }
     },
     {
-        "model": "superdoc_urls.speciality",
+        "model": "superdoc_urls.region",
         "pk": 9,
         "fields": {
             "name": "Кюстендил",
@@ -72,7 +72,7 @@
         }
     },
     {
-        "model": "superdoc_urls.speciality",
+        "model": "superdoc_urls.region",
         "pk": 10,
         "fields": {
             "name": "Ловеч",
@@ -80,7 +80,7 @@
         }
     },
     {
-        "model": "superdoc_urls.speciality",
+        "model": "superdoc_urls.region",
         "pk": 11,
         "fields": {
             "name": "Монтана",
@@ -88,7 +88,7 @@
         }
     },
     {
-        "model": "superdoc_urls.speciality",
+        "model": "superdoc_urls.region",
         "pk": 12,
         "fields": {
             "name": "Пазарджик",
@@ -96,7 +96,7 @@
         }
     },
     {
-        "model": "superdoc_urls.speciality",
+        "model": "superdoc_urls.region",
         "pk": 13,
         "fields": {
             "name": "Перник",
@@ -104,7 +104,7 @@
         }
     },
     {
-        "model": "superdoc_urls.speciality",
+        "model": "superdoc_urls.region",
         "pk": 14,
         "fields": {
             "name": "Плевен",
@@ -112,7 +112,7 @@
         }
     },
     {
-        "model": "superdoc_urls.speciality",
+        "model": "superdoc_urls.region",
         "pk": 15,
         "fields": {
             "name": "Пловдив",
@@ -120,7 +120,7 @@
         }
     },
     {
-        "model": "superdoc_urls.speciality",
+        "model": "superdoc_urls.region",
         "pk": 16,
         "fields": {
             "name": "Разград",
@@ -128,7 +128,7 @@
         }
     },
     {
-        "model": "superdoc_urls.speciality",
+        "model": "superdoc_urls.region",
         "pk": 17,
         "fields": {
             "name": "Русе",
@@ -136,7 +136,7 @@
         }
     },
     {
-        "model": "superdoc_urls.speciality",
+        "model": "superdoc_urls.region",
         "pk": 18,
         "fields": {
             "name": "Силистра",
@@ -144,7 +144,7 @@
         }
     },
     {
-        "model": "superdoc_urls.speciality",
+        "model": "superdoc_urls.region",
         "pk": 19,
         "fields": {
             "name": "Сливен",
@@ -152,7 +152,7 @@
         }
     },
     {
-        "model": "superdoc_urls.speciality",
+        "model": "superdoc_urls.region",
         "pk": 20,
         "fields": {
             "name": "Смолян",
@@ -160,7 +160,7 @@
         }
     },
     {
-        "model": "superdoc_urls.speciality",
+        "model": "superdoc_urls.region",
         "pk": 21,
         "fields": {
             "name": "София град",
@@ -168,7 +168,7 @@
         }
     },
     {
-        "model": "superdoc_urls.speciality",
+        "model": "superdoc_urls.region",
         "pk": 22,
         "fields": {
             "name": "София област",
@@ -176,7 +176,7 @@
         }
     },
     {
-        "model": "superdoc_urls.speciality",
+        "model": "superdoc_urls.region",
         "pk": 23,
         "fields": {
             "name": "Стара Загора",
@@ -184,7 +184,7 @@
         }
     },
     {
-        "model": "superdoc_urls.speciality",
+        "model": "superdoc_urls.region",
         "pk": 24,
         "fields": {
             "name": "Търговище",
@@ -192,7 +192,7 @@
         }
     },
     {
-        "model": "superdoc_urls.speciality",
+        "model": "superdoc_urls.region",
         "pk": 25,
         "fields": {
             "name": "Хасково",
@@ -200,7 +200,7 @@
         }
     },
     {
-        "model": "superdoc_urls.speciality",
+        "model": "superdoc_urls.region",
         "pk": 26,
         "fields": {
             "name": "Шумен",
@@ -208,7 +208,7 @@
         }
     },
     {
-        "model": "superdoc_urls.speciality",
+        "model": "superdoc_urls.region",
         "pk": 27,
         "fields": {
             "name": "Ямбол",
