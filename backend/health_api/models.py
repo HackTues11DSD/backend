@@ -8,9 +8,11 @@ class Injury(models.Model):
     symptoms = models.TextField()
     recommendations = models.TextField(default="Консултирайте се с медицинско лице.")
 
+class Place(models.Model):
+    name = models.CharField(max_length=255)
 
 class Symptom(models.Model):
-    place = models.IntegerField(null=True)
+    place = models.ForeignKey(Place, on_delete=models.CASCADE, null=True)
     name = models.CharField(max_length=255)
     key = models.CharField(max_length=10)
 
@@ -21,4 +23,3 @@ class Symptom(models.Model):
 class Cause(models.Model):
     name = models.CharField(max_length=255)
     symptoms = models.ForeignKey(Symptom, on_delete=models.CASCADE, null=True)
-    #symp = Symptom.key
