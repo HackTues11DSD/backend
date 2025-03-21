@@ -1,43 +1,42 @@
-<a id="readme-top"></a>
-
-<br />
-
-  <h3 align="center">DSD</h3>
+<h3 align="center">Health Map</h3>
 
 
-<!-- TABLE OF CONTENTS -->
-<details>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
-  </ol>
-</details>
-
-
-
-<!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+[![Health Map Screen Shot]](./recources/home_screenshot.png)
 
-Проект по тема здравеееее
+Health Map is a web application designed to assist users in self-diagnosing sports injuries and traumas. Built with Tailwind CSS, React, and Django, the platform provides an interactive and user-friendly experience for identifying potential injuries and exploring treatment options.
+Features
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+* Interactive Human Body Model: Users can click on a specific body part to indicate where they are experiencing pain.
 
+* Symptom Selection: After selecting a body part, users are presented with a list of symptoms to choose from.
 
+* Diagnosis Suggestions: Based on the selected symptoms, the app provides a list of possible diagnoses.
 
-### Built With
+* Treatment Options: Users can explore recommended treatments for their potential injuries.
 
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
-
-* [![Django][Django]][https://www.djangoproject.com/]
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
+* Responsive Design: The website is fully responsive and optimized for both desktop and mobile devices.
 
 
+## Technologies Used
+
+Frontend:
+
+* React: A JavaScript library for building user interfaces.
+
+* Tailwind CSS: A utility-first CSS framework for rapid UI development.
+
+Backend:
+
+* Django: A high-level Python web framework for building secure and maintainable websites.
+
+Database:
+
+* SQLite
+
+Other Tools:
+
+* Django REST Framework: For building APIs to connect the frontend and backend.
+
+* Axios: For making HTTP requests from the React frontend to the Django backend.
