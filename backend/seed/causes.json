@@ -1,0 +1,107 @@
+[
+    {
+        "model": "health_api.cause",
+        "pk": 1,
+        "fields": {
+            "name": "Счупени ребра"
+        }
+    },
+    {
+        "model": "health_api.cause",
+        "pk": 2,
+        "fields": {
+            "name": "Нарязвания и разкъсвания"
+        }
+    },
+    {
+        "model": "health_api.cause",
+        "pk": 3,
+        "fields": {
+            "name": "Шийна болка"
+        }
+    },
+    {
+        "model": "health_api.cause",
+        "pk": 4,
+        "fields": {
+            "name": "Изкълчване на рамо"
+        }
+    },
+    {
+        "model": "health_api.cause",
+        "pk": 5,
+        "fields": {
+            "name": "Фрактура на бедро"
+        }
+    },
+    {
+        "model": "health_api.cause",
+        "pk": 6,
+        "fields": {
+            "name": "Счупени ребра"
+        }
+    },
+    {
+        "model": "health_api.cause",
+        "pk": 7,
+        "fields": {
+            "name": "Фрактури на лицето"
+        }
+    },
+    {
+        "model": "health_api.cause",
+        "pk": 8,
+        "fields": {
+            "name": "Травми на очите"
+        }
+    },
+    {
+        "model": "health_api.cause",
+        "pk": 9,
+        "fields": {
+            "name": "Дентални травми"
+        }
+    },
+    {
+        "model": "health_api.cause",
+        "pk": 10,
+        "fields": {
+            "name": "Херниран диск"
+        }
+    },
+    {
+        "model": "health_api.cause",
+        "pk": 11,
+        "fields": {
+            "name": "Фрактура на гръбначния стълб"
+        }
+    },
+    {
+        "model": "health_api.cause",
+        "pk": 12,
+        "fields": {
+            "name": "Прищипан нерв"
+        }
+    },
+    {
+        "model": "health_api.cause",
+        "pk": 13,
+        "fields": {
+            "name": "Разтегнати мускули на шията"
+        }
+    },
+    {
+        "model": "health_api.cause",
+        "pk": 14,
+        "fields": {
+            "name": "Разкъсване на ротаторния маншон"
+        }
+    },
+    {
+        "model": "health_api.cause",
+        "pk": 15,
+        "fields": {
+            "name": "Фрактура на ключицата"
+        }
+    }
+]
