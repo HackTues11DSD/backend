@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'health_api',
     'members',
+    'superdoc_urls',
     'rest_framework',
     'corsheaders',
 ]
