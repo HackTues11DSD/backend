@@ -3,8 +3,6 @@
 
 ## About The Project
 
-[![Health Map Screen Shot]](./recources/home_screenshot.png)
-
 Health Map is a web application designed to assist users in self-diagnosing sports injuries and traumas. Built with Tailwind CSS, React, and Django, the platform provides an interactive and user-friendly experience for identifying potential injuries and exploring treatment options.
 Features
 
